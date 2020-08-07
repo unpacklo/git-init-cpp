@@ -4,7 +4,7 @@ mkdir $1
 cd $1
 
 if [ ! -e main.cpp ]; then
-    printf "#include <cstdio>\n\nint main (int argc, char* argv[])\n{\n  printf(\"Hello, World!\\\\n\");\n  return 0;\n}\n" > main.cpp
+    printf "#include <cstdio>\n\nint main(int argc, char* argv[])\n{\n  printf(\"Hello, World!\\\\n\");\n  return 0;\n}\n" > main.cpp
 fi
 
 if [ ! -e build.sh ]; then
